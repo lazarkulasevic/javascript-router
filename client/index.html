@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Router in Vanilla Javascript</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="/static/css/index.css">
+</head>
+<body>
+    <div class="main-wrapper d-flex flex-column">
+        <nav class="navbar navbar-expand-sm fixed-top navbar-dark bg-dark">
+            <div class="container-fluid d-flex flex-row justify-content-end">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="nav__links collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav d-flex align-items-center align-items-sm-left">
+                      <li class="nav-item">
+                        <a class="nav__link" href="/" data-link="/">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav__link" href="/about" data-link="/about">About</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav__link" href="/blog" data-link="/blog">Blog</a>
+                      </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div id="root" class="bg-light flex-grow-1"></div>
+        <footer class="d-flex align-items-center justify-content-center bg-dark text-white">
+            <p class="m-0">Created with 🍦 JS by <a class="github-link" href="https://github.com/lazar.kulasevic">Lazar Kulasevic</a>.</p>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <script type="module" src="/static/js/index.js"></script>
+</body>
+</html>

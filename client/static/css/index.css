@@ -1,0 +1,107 @@
+:root {
+    --hat: #FFCC00;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+}
+
+h1, h2, h3, h4 {
+    font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+}
+
+.github-link {
+    color: var(--hat);
+    text-decoration: none;
+}
+
+.github-link:hover {
+    color: var(--hat);
+    opacity: 0.9;
+}
+
+.main-wrapper {
+    min-height: 100vh;
+}
+
+.navbar {
+    justify-content: flex-start;
+    padding: 0;
+}
+
+.nav__link {
+    position: relative;
+    display: inline-block;
+    padding: 12px 18px;
+    text-decoration: none;
+    color: #eeeeee;
+    font-weight: 500;
+}
+
+.nav__link:hover {
+    background: rgba(255, 255, 255, 0.05);
+    color: #eeeeee;
+    text-decoration: none;
+}
+
+.nav__link.active {
+    color: #ffffff;
+}
+
+.nav__link.active::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 3px;
+    width: 100%;
+    background-color: var(--hat);
+    z-index: 1;
+}
+
+.navbar-dark .navbar-toggler {
+    position: relative;
+    padding: 7px;
+    margin: 4px;
+    font-size: 1rem;
+    color: transparent;
+    border-color: transparent;
+}
+
+.navbar-dark .navbar-toggler[aria-expanded="true"]::before  {
+    content: '✕';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 8px;
+    background-color: var(--bs-dark);
+    color: white;
+}
+
+#root {
+    margin-top: 48px;
+    line-height: 1.5;
+    font-weight: 500;
+}
+
+.blog-post {
+    padding: 0.75rem;
+}
+
+footer {
+    height: 60px;
+}
+
+@media (min-width: 576px) {
+    .blog-post {
+        padding: 1.25rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .blog-post {
+        padding: 2rem;
+    }
+}

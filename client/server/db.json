@@ -1,0 +1,75 @@
+{
+    "home": {
+        "title": "Welcome Home",
+        "textBody": "<p>You've finally arrived at our homepage!<\/p>\r\n<p>What have you been waiting for? Since you're here, let me show you what's this page all about. Yeah, you've read it correct, it's <em>a page<\/em>, not plural. This is a single-page application written in <strong>plain Javascript<\/strong> and rendered in your browser. Wonderful, right?<\/p>\r\n<h2>Meet Vanilla Javascript Router<\/h2>\r\n<p>Let me walk you through this web app.<\/p>\r\n<p>Click on the link or use the navbar to check the <a href=\"\/about\" data-link>About<\/a> page or the <a href=\"\/blog\" data-link>Blog<\/a>.<\/p>\r\n<p><strong>ENJOY!<\/strong><\/p>"
+    },
+    "about": {
+        "title": "About",
+        "textBody": "<h2>Lorem ipsum<\/h2>\r\n<p>Dolor sit amet, consectetuer adipiscing elit. Nullam <em>dictum<\/em> felis eu pede mollis pretium. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.<\/p>\r\n<p>Aenean <em>commodo ligula<\/em> eget dolor. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla <strong>consequat massa<\/strong> quis enim.<\/p>\r\n<ol>\r\n<li>Donec pede justo<\/li>\r\n<li>Fringilla vel<\/li>\r\n<li>Aliquet nec<\/li>\r\n<li>Vulputate eget<\/li>\r\n<li>Arcu.<\/li>\r\n<\/ol>\r\n<h2>In enim justo<\/h2>\r\n<p>Rhoncus ut, imperdiet a, venenatis vitae, justo. Integer tincidunt. Cras dapibus.<\/p>\r\n<p>Aenean vulputate natoque eleifend tellus. Vivamus elementum semper nisi. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. <strong>Aliquam lorem ante<\/strong>, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet.<\/p>"
+    },
+    "blog": [
+        {
+            "slug": "this-is-my-title",
+            "title": "This is my title",
+            "createdAt": "2021-02-02T19:47:12.396Z",
+            "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+            "textBody": "<h2>Lorem ipsum<\/h2>\r\n<p>Dolor sit amet, consectetuer adipiscing elit. Nullam <em>dictum<\/em> felis eu pede mollis pretium. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.<\/p>\r\n<p>Aenean <em>commodo ligula<\/em> eget dolor. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla <strong>consequat massa<\/strong> quis enim.<\/p>\r\n<ol>\r\n<li>Donec pede justo<\/li>\r\n<li>Fringilla vel<\/li>\r\n<li>Aliquet nec<\/li>\r\n<li>Vulputate eget<\/li>\r\n<li>Arcu.<\/li>\r\n<\/ol>\r\n<h2>In enim justo<\/h2>\r\n<p>Rhoncus ut, imperdiet a, venenatis vitae, justo. Integer tincidunt. Cras dapibus.<\/p>\r\n<p>Aenean vulputate natoque eleifend tellus. Vivamus elementum semper nisi. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. <strong>Aliquam lorem ante<\/strong>, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet.<\/p>"
+        },
+        {
+            "slug": "this-is-my-second-title",
+            "title": "This is my second title",
+            "createdAt": "2021-03-01T20:54:23.227Z",
+            "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+            "textBody": "<h2>Lorem ipsum<\/h2>\r\n<p>Dolor sit amet, consectetuer adipiscing elit. Nullam <em>dictum<\/em> felis eu pede mollis pretium. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.<\/p>\r\n<p>Aenean <em>commodo ligula<\/em> eget dolor. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla <strong>consequat massa<\/strong> quis enim.<\/p>\r\n<ol>\r\n<li>Donec pede justo<\/li>\r\n<li>Fringilla vel<\/li>\r\n<li>Aliquet nec<\/li>\r\n<li>Vulputate eget<\/li>\r\n<li>Arcu.<\/li>\r\n<\/ol>\r\n<h2>In enim justo<\/h2>\r\n<p>Rhoncus ut, imperdiet a, venenatis vitae, justo. Integer tincidunt. Cras dapibus.<\/p>\r\n<p>Aenean vulputate natoque eleifend tellus. Vivamus elementum semper nisi. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. <strong>Aliquam lorem ante<\/strong>, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet.<\/p>"
+        },
+        {
+            "slug": "this-is-my-third-title",
+            "title": "This is my third title",
+            "createdAt": "2021-04-21T08:54:22.000Z",
+            "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+            "textBody": "<h2>Lorem ipsum<\/h2>\r\n<p>Dolor sit amet, consectetuer adipiscing elit. Nullam <em>dictum<\/em> felis eu pede mollis pretium. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.<\/p>\r\n<p>Aenean <em>commodo ligula<\/em> eget dolor. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla <strong>consequat massa<\/strong> quis enim.<\/p>\r\n<ol>\r\n<li>Donec pede justo<\/li>\r\n<li>Fringilla vel<\/li>\r\n<li>Aliquet nec<\/li>\r\n<li>Vulputate eget<\/li>\r\n<li>Arcu.<\/li>\r\n<\/ol>\r\n<h2>In enim justo<\/h2>\r\n<p>Rhoncus ut, imperdiet a, venenatis vitae, justo. Integer tincidunt. Cras dapibus.<\/p>\r\n<p>Aenean vulputate natoque eleifend tellus. Vivamus elementum semper nisi. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. <strong>Aliquam lorem ante<\/strong>, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet.<\/p>"
+        },
+        {
+            "slug": "this-is-my-fourth-title",
+            "title": "This is my fourth title",
+            "createdAt": "2021-03-01T20:54:23.227Z",
+            "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+            "textBody": "<h2>Lorem ipsum<\/h2>\r\n<p>Dolor sit amet, consectetuer adipiscing elit. Nullam <em>dictum<\/em> felis eu pede mollis pretium. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.<\/p>\r\n<p>Aenean <em>commodo ligula<\/em> eget dolor. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla <strong>consequat massa<\/strong> quis enim.<\/p>\r\n<ol>\r\n<li>Donec pede justo<\/li>\r\n<li>Fringilla vel<\/li>\r\n<li>Aliquet nec<\/li>\r\n<li>Vulputate eget<\/li>\r\n<li>Arcu.<\/li>\r\n<\/ol>\r\n<h2>In enim justo<\/h2>\r\n<p>Rhoncus ut, imperdiet a, venenatis vitae, justo. Integer tincidunt. Cras dapibus.<\/p>\r\n<p>Aenean vulputate natoque eleifend tellus. Vivamus elementum semper nisi. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. <strong>Aliquam lorem ante<\/strong>, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet.<\/p>"
+        },
+        {
+            "slug": "this-is-my-fifth-title",
+            "title": "This is my fifth title",
+            "createdAt": "2021-04-21T08:54:22.000Z",
+            "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+            "textBody": "<h2>Lorem ipsum<\/h2>\r\n<p>Dolor sit amet, consectetuer adipiscing elit. Nullam <em>dictum<\/em> felis eu pede mollis pretium. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.<\/p>\r\n<p>Aenean <em>commodo ligula<\/em> eget dolor. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla <strong>consequat massa<\/strong> quis enim.<\/p>\r\n<ol>\r\n<li>Donec pede justo<\/li>\r\n<li>Fringilla vel<\/li>\r\n<li>Aliquet nec<\/li>\r\n<li>Vulputate eget<\/li>\r\n<li>Arcu.<\/li>\r\n<\/ol>\r\n<h2>In enim justo<\/h2>\r\n<p>Rhoncus ut, imperdiet a, venenatis vitae, justo. Integer tincidunt. Cras dapibus.<\/p>\r\n<p>Aenean vulputate natoque eleifend tellus. Vivamus elementum semper nisi. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. <strong>Aliquam lorem ante<\/strong>, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet.<\/p>"
+        },
+        {
+            "slug": "this-is-my-n-th-title",
+            "title": "This is my n-th title",
+            "createdAt": "2021-03-01T20:54:23.227Z",
+            "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+            "textBody": "<h2>Lorem ipsum<\/h2>\r\n<p>Dolor sit amet, consectetuer adipiscing elit. Nullam <em>dictum<\/em> felis eu pede mollis pretium. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.<\/p>\r\n<p>Aenean <em>commodo ligula<\/em> eget dolor. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla <strong>consequat massa<\/strong> quis enim.<\/p>\r\n<ol>\r\n<li>Donec pede justo<\/li>\r\n<li>Fringilla vel<\/li>\r\n<li>Aliquet nec<\/li>\r\n<li>Vulputate eget<\/li>\r\n<li>Arcu.<\/li>\r\n<\/ol>\r\n<h2>In enim justo<\/h2>\r\n<p>Rhoncus ut, imperdiet a, venenatis vitae, justo. Integer tincidunt. Cras dapibus.<\/p>\r\n<p>Aenean vulputate natoque eleifend tellus. Vivamus elementum semper nisi. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. <strong>Aliquam lorem ante<\/strong>, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet.<\/p>"
+        },
+        {
+            "slug": "this-is-my-n-th-title",
+            "title": "This is my n-th title",
+            "createdAt": "2021-04-21T08:54:22.000Z",
+            "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+            "textBody": "<h2>Lorem ipsum<\/h2>\r\n<p>Dolor sit amet, consectetuer adipiscing elit. Nullam <em>dictum<\/em> felis eu pede mollis pretium. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.<\/p>\r\n<p>Aenean <em>commodo ligula<\/em> eget dolor. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla <strong>consequat massa<\/strong> quis enim.<\/p>\r\n<ol>\r\n<li>Donec pede justo<\/li>\r\n<li>Fringilla vel<\/li>\r\n<li>Aliquet nec<\/li>\r\n<li>Vulputate eget<\/li>\r\n<li>Arcu.<\/li>\r\n<\/ol>\r\n<h2>In enim justo<\/h2>\r\n<p>Rhoncus ut, imperdiet a, venenatis vitae, justo. Integer tincidunt. Cras dapibus.<\/p>\r\n<p>Aenean vulputate natoque eleifend tellus. Vivamus elementum semper nisi. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. <strong>Aliquam lorem ante<\/strong>, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet.<\/p>"
+        },
+        {
+            "slug": "this-is-my-n-th-title",
+            "title": "This is my n-th title",
+            "createdAt": "2021-03-01T20:54:23.227Z",
+            "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+            "textBody": "<h2>Lorem ipsum<\/h2>\r\n<p>Dolor sit amet, consectetuer adipiscing elit. Nullam <em>dictum<\/em> felis eu pede mollis pretium. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.<\/p>\r\n<p>Aenean <em>commodo ligula<\/em> eget dolor. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla <strong>consequat massa<\/strong> quis enim.<\/p>\r\n<ol>\r\n<li>Donec pede justo<\/li>\r\n<li>Fringilla vel<\/li>\r\n<li>Aliquet nec<\/li>\r\n<li>Vulputate eget<\/li>\r\n<li>Arcu.<\/li>\r\n<\/ol>\r\n<h2>In enim justo<\/h2>\r\n<p>Rhoncus ut, imperdiet a, venenatis vitae, justo. Integer tincidunt. Cras dapibus.<\/p>\r\n<p>Aenean vulputate natoque eleifend tellus. Vivamus elementum semper nisi. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. <strong>Aliquam lorem ante<\/strong>, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet.<\/p>"
+        },
+        {
+            "slug": "this-is-my-n-th-title",
+            "title": "This is my n-th title",
+            "createdAt": "2021-04-21T08:54:22.000Z",
+            "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+            "textBody": "<h2>Lorem ipsum<\/h2>\r\n<p>Dolor sit amet, consectetuer adipiscing elit. Nullam <em>dictum<\/em> felis eu pede mollis pretium. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.<\/p>\r\n<p>Aenean <em>commodo ligula<\/em> eget dolor. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla <strong>consequat massa<\/strong> quis enim.<\/p>\r\n<ol>\r\n<li>Donec pede justo<\/li>\r\n<li>Fringilla vel<\/li>\r\n<li>Aliquet nec<\/li>\r\n<li>Vulputate eget<\/li>\r\n<li>Arcu.<\/li>\r\n<\/ol>\r\n<h2>In enim justo<\/h2>\r\n<p>Rhoncus ut, imperdiet a, venenatis vitae, justo. Integer tincidunt. Cras dapibus.<\/p>\r\n<p>Aenean vulputate natoque eleifend tellus. Vivamus elementum semper nisi. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. <strong>Aliquam lorem ante<\/strong>, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet.<\/p>"
+        }
+    ]
+}
