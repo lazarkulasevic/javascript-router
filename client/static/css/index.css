@@ -94,6 +94,14 @@ footer {
     height: 60px;
 }
 
+.fade-in {
+    animation: fade-in linear 0.3s;
+    -webkit-animation: fade-in linear 0.3s;
+    -moz-animation: fade-in linear 0.3s;
+    -o-animation: fade-in linear 0.3s;
+    -ms-animation: fade-in linear 0.3s;
+}
+
 @media (min-width: 576px) {
     .blog-post {
         padding: 1.25rem;
@@ -104,4 +112,29 @@ footer {
     .blog-post {
         padding: 2rem;
     }
+}
+
+@keyframes fade-in {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+@-moz-keyframes fade-in {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+@-webkit-keyframes fade-in {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+@-o-keyframes fade-in {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+@-ms-keyframes fade-in {
+    0% {opacity:0;}
+    100% {opacity:1;}
 }

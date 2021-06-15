@@ -24,7 +24,7 @@ export default class extends Hat {
 
     template(data) {
         return `
-            <article class="blog-post">
+            <article class="blog-post fade-in">
                 <h2>${data.title}</h2>
                 <p class="blog-post-meta">${getLocalDate(data.createdAt)}</p>
                 <p class="lead">${data.description}</p>
