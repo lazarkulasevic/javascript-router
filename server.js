@@ -4,8 +4,8 @@ const app = express()
 
 app.use('/static', express.static(path.resolve(__dirname, 'client', 'static')))
 
-app.get('/server', (req, res) => {
-    res.sendFile(path.resolve(__dirname, 'client/server', 'db.json'))
+app.get('/database', (req, res) => {
+    res.sendFile(path.resolve(__dirname, 'database', 'db.json'))
 })
 
 app.get('/*', (req, res) => {

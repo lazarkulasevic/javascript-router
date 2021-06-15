@@ -62,6 +62,10 @@ const router = async () => {
     const page = new match.route.component(getParams(match))
     const html = await page.render()
 
+    if (!html) {
+        goTo('/error-404')
+    }
+
     root.innerHTML = html
     scrollTo(0, position)
 }

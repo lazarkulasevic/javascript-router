@@ -11,8 +11,11 @@ export default class extends Hat {
     async render() {
         return this.get(API).then(data => {
             const post = data.blog.find(post => post.slug === this.slug)
-            this.setTitle(post.title)
-            return this.template(post)
+            if (!!post) {
+                this.setTitle(post.title)
+                return this.template(post)
+            }
+            return null
         }).catch(error => {
             console.error(error)
             return null
