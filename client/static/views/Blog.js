@@ -16,7 +16,7 @@ export default class extends Hat {
 
     template(data) {
         return `
-            <div class="container-fluid fade-in">
+            <div class="fade-in">
                 <div class="row mb-2">
                     ${data.map((post, i) => {
                         if (i < 1) {

@@ -104,11 +104,8 @@ h1, h2, h3, h4, .logo {
 
 .content-column {
     max-width: 768px;
+    margin: 1rem auto;
 }
-
-/* .code-block {
-    max-width: 300px;
-} */
 
 .blog-post {
     padding: 0.75rem;
@@ -126,31 +123,17 @@ footer {
     -ms-animation: fade-in linear 0.3s;
 }
 
-/* @media (min-width: 360px) {
-    .code-block {
-        max-width: 316px;
-    }
-} */
-
 
 @media (min-width: 576px) {
     .blog-post {
         padding: 1.25rem;
     }
-
-    /* .code-block {
-        max-width: 550px;
-    } */
 }
 
 @media (min-width: 992px) {
     .blog-post {
         padding: 2rem;
     }
-
-    /* .code-block {
-        max-width: 100%;
-    } */
 }
 
 @keyframes fade-in {
