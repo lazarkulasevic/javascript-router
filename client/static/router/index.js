@@ -1,5 +1,5 @@
 import routes from './routes.js'
-import { getScrollPosition, saveScrollPosition } from './scroll-position.js'
+import { getScrollPosition, saveScrollPosition } from '../utils/scroll-position.js'
 
 const root = document.getElementById('root')
 var cache = [], position = 0
