@@ -1,5 +1,6 @@
 :root {
     --hat: #FFCC00;
+    --nav-bg: #171b1f;
 }
 
 body {
@@ -7,8 +8,20 @@ body {
     font-size: 16px;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4, .logo {
     font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+}
+
+.logo {
+    font-style: italic;
+    font-size: 1.25rem;
+    padding: 0.5rem;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.logo:hover {
+    color: var(--hat);
 }
 
 .github-link {
@@ -28,6 +41,7 @@ h1, h2, h3, h4 {
 .navbar {
     justify-content: flex-start;
     padding: 0;
+    background-color: var(--nav-bg) !important;
 }
 
 .nav__link {
@@ -76,9 +90,9 @@ h1, h2, h3, h4 {
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 8px;
-    background-color: var(--bs-dark);
+    background-color: var(--nav-bg);
     color: white;
-    font-size: 16px;
+    font-size: 1.25rem;
 }
 
 #root {
