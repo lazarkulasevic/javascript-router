@@ -12,8 +12,10 @@ const addActiveClassToNav = () => {
     })
 }
 
-document.querySelector('.navbar').addEventListener('click', event => {
-    if (event.target.classList.contains('nav__link') || event.target.classList.contains('logo')) {
+document.querySelector('.main-wrapper').addEventListener('click', event => {
+    if (event.target.classList.contains('nav__link') || 
+        event.target.classList.contains('logo') || 
+        event.target.classList.contains('nav__link__content')) {
         if (event.target.classList.contains('active')) return
 
         setTimeout(() => {

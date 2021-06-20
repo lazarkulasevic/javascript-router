@@ -4,7 +4,7 @@ import API from '../api/index.js'
 export default class extends Hat {
     constructor(params) {
         super(params)
-        this.setTitle('Home')
+        this.setTitle('Homepage')
     }
 
     async render() {
