@@ -12,7 +12,7 @@ export default class extends Hat {
 
     template() {
         return `
-            <div class="p-3 align-self-center fade-in">
+            <div class="align-self-center fade-in">
                 <div class="text-center">
                     <h1 class="display-1">404</h1>
                     <p class="lead">The resource you are looking for doesn't exist on this site.</p>

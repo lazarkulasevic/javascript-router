@@ -106,9 +106,9 @@ h1, h2, h3, h4, .logo {
     max-width: 768px;
 }
 
-.code-block {
+/* .code-block {
     max-width: 300px;
-}
+} */
 
 .blog-post {
     padding: 0.75rem;
@@ -126,11 +126,11 @@ footer {
     -ms-animation: fade-in linear 0.3s;
 }
 
-@media (min-width: 432px) {
+/* @media (min-width: 360px) {
     .code-block {
-        max-width: 400px;
+        max-width: 316px;
     }
-}
+} */
 
 
 @media (min-width: 576px) {
@@ -138,9 +138,9 @@ footer {
         padding: 1.25rem;
     }
 
-    .code-block {
+    /* .code-block {
         max-width: 550px;
-    }
+    } */
 }
 
 @media (min-width: 992px) {
@@ -148,9 +148,9 @@ footer {
         padding: 2rem;
     }
 
-    .code-block {
+    /* .code-block {
         max-width: 100%;
-    }
+    } */
 }
 
 @keyframes fade-in {
