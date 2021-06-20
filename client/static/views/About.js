@@ -15,7 +15,7 @@ export default class extends Hat {
 
     template(data) {
         return `
-            <div class="p-3 fade-in">
+            <div class="p-3 fade-in content-column">
                 <h1>${data.title}</h1>
                 <hr>
                 <div>${data.textBody}</div>
